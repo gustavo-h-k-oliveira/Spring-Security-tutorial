@@ -1,0 +1,9 @@
+@url = https://8080-gustavohkol-springsecur-xlykdj105r2.ws-us118.gitpod.io
+
+POST {{url}}/auth
+Content-Type: application/json
+
+{
+    "nomeUsuario": "Admin",
+    "senha": "admin"
+}

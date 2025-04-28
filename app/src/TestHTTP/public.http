@@ -1,0 +1,3 @@
+@url = https://8080-gustavohkol-springsecur-xlykdj105r2.ws-us118.gitpod.io
+
+GET {{url}}/public

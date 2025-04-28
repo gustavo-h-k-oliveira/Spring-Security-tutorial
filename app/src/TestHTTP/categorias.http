@@ -1,0 +1,15 @@
+@url = https://8080-gustavohkol-springsecur-xlykdj105r2.ws-us118.gitpod.io
+
+@token =
+
+GET {{url}}/categorias
+
+###
+
+POST {{url}}/categorias
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nome": "Ciencia exatas"
+}
